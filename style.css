@@ -57,29 +57,55 @@ table {
     list-style: none;
   }
   .header_inner{
-    max-width: 1200px;
+    padding-top: 1.67vw;
+    padding-bottom: 1.67vw;
+    max-width: 83.33vw;
     /* height: 90px;     */
     display: flex;
     justify-content: space-around;
+    align-content: center;
     
     
     margin: 0 auto;
   }
   .header_menu_list_item{
     color: white;
-    font-size: 15px;
+    font-size: 1.04vw;
     /* height: 20px; */
     font-weight: 400;
   }
   .header_menu_list{
+    align-items: center;
     display: flex;
     /* justify-content: space-between; */
-    gap: 32px;
+    gap: 2.22vw;
   }
   .header{
     background-color: black;
   }
   .header_menu{
+    gap: 2.15vw;
     display: flex;
   justify-content: space-between;
+  }
+  .logo_img{
+    width: 8.89vw;
+  }
+  .header_menu_list_button{
+  
+  width: 10.76vw;
+  height: 2.92vw;
+  border-radius: 0.97vw;
+  font-size: 1.11vw;
+  }
+  .main{
+    margin: 0 auto;
+  }
+  .section_1_backimg{
+    position: fixed;
+    max-width: 1000vw;
+    max-height: 77.9107725788901vh;
+    /* height: 1200px; */
+/* background-image: url("/images/IMAGE.png"); */
+/* background-size: 100%; */
   }
